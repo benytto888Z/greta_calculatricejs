@@ -86,6 +86,6 @@ btnOperators.forEach(op =>{
 
 
     function occurenceInInput(champ,v){
-        let nbvirgule = (champ.split(v)).length-1; 
-         return nbvirgule;
+        let nbdecaracteres = (champ.split(v)).length-1; 
+         return nbdecaracteres;
     }
