@@ -89,3 +89,15 @@ btnOperators.forEach(op =>{
         let nbdecaracteres = (champ.split(v)).length-1; 
          return nbdecaracteres;
     }
+
+    function clearscreen(){
+        affichage.value="";
+        nb=""; 
+        nb1=0;
+        nb2=0;
+        oper="";
+        result="";
+        opChoisie = false;
+        egalClique = false;
+
+    }
