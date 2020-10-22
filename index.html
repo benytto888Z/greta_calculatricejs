@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>calculatrice</title>
+</head>
+<body>
+
+    <h1>Calculatrice classique</h1>
+
+    <div class="calculatrice">
+         <div>
+             <input type="text" id="input"/>
+             <button class="btnCE">CE</button>
+         </div>
+
+         <div class="ligne1">
+             <button data-numb = "7" class="btnNumb">7</button>
+             <button data-numb = "8" class="btnNumb">8</button>
+             <button class="btnNumb">9</button>
+             <button class="btnOp">/</button>
+         </div>
+         <div class="ligne2">
+            <button class="btnNumb">4</button>
+            <button class="btnNumb">5</button>
+            <button class="btnNumb">6</button>
+            <button class="btnOp">*</button>
+        </div>
+        <div class="ligne3">
+            <button class="btnNumb">1</button>
+            <button class="btnNumb">2</button>
+            <button class="btnNumb">3</button>
+            <button class="btnOp">-</button>
+        </div>
+        <div class="ligne4">
+            <button class="btnNumb">0</button>
+            <button class="btnNumb">.</button>
+            <button onclick="calculer()" class="btnEgal">=</button>
+            <button class="btnOp">+</button>
+        </div>
+
+    </div>
+    
+    <script src="calc.js"></script>
+</body>
+</html>

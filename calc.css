@@ -1,0 +1,58 @@
+h1{
+   
+    width: 50%;
+    font-size: 40px;
+     margin: 100px auto;
+    color: White;
+    background-color: brown;
+    text-align: center;
+}
+
+.ligne1{
+    margin-top: 5px;
+}
+
+.calculatrice{
+   
+    background-color:grey;
+    width: 220px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px 5px;
+}
+  
+
+
+#input{
+ width:170px;
+ height: 35px;
+ color: white;
+ font-size: 18px;
+ font-weight: bold;
+ background-color: black;
+}
+
+.btnNumb,.btnOp,.btnEgal,.btnCE{
+    width: 50px;
+    height: 50px;
+    border:1px solid darkgray ;
+    border-radius: 8px;
+}
+
+.btnNumb:hover,.btnOp:hover,.btnEgal:hover,.btnCE:hover{
+    background-color: maroon;
+    color: white;
+}
+
+.btnCE{
+    width: 35px;
+    height: 35px;
+    border:1px solid darkgray ;
+    border-radius: 8px;
+    margin-top: 0px;
+}
+
+.btnCE:hover{
+    background-color: maroon;
+    color: white;
+}
